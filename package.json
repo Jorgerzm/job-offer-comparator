@@ -2,9 +2,10 @@
   "name": "job-offer-comparator",
   "version": "1.0.0",
   "type": "module",
+  "engines": { "node": ">=20.0.0" },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node build.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
